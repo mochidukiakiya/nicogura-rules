@@ -1,0 +1,645 @@
+{
+  "site": {
+    "name": "NicoGura",
+    "tagline": "あなたらしい物語が、この街から。",
+    "version": "準備版",
+    "updatedAt": "2026-10-04",
+    "notice": "現在はサイト準備版です。正式ルール本文は運営確認中のため、確認できた内容から順次掲載します。",
+    "links": {
+      "discord": "",
+      "x": "",
+      "fivem": "",
+      "official": ""
+    },
+    "assets": {
+      "logo": "assets/logo.webp",
+      "header": "assets/city.webp",
+      "icon": "assets/icon.webp"
+    }
+  },
+  "categories": [
+    {
+      "id": "basic",
+      "label": "基本ルール",
+      "shortLabel": "基本",
+      "description": "街で過ごすための基本事項を掲載する予定です。",
+      "group": "はじめに"
+    },
+    {
+      "id": "rp",
+      "label": "RPルール",
+      "shortLabel": "RP",
+      "description": "ロールプレイに関する内容を掲載する予定です。",
+      "group": "はじめに"
+    },
+    {
+      "id": "prohibited",
+      "label": "禁止事項",
+      "shortLabel": "禁止事項",
+      "description": "運営が確認した禁止事項を掲載する予定です。",
+      "group": "はじめに"
+    },
+    {
+      "id": "citizen",
+      "label": "市民",
+      "shortLabel": "市民",
+      "description": "市民の暮らしに関する内容を掲載する予定です。",
+      "group": "暮らし・仕事"
+    },
+    {
+      "id": "public-service",
+      "label": "公務員",
+      "shortLabel": "公務員",
+      "description": "公務員に関する内容を掲載する予定です。",
+      "group": "暮らし・仕事"
+    },
+    {
+      "id": "pd",
+      "label": "PD",
+      "shortLabel": "PD",
+      "description": "警察に関する内容を掲載する予定です。",
+      "group": "暮らし・仕事"
+    },
+    {
+      "id": "ems",
+      "label": "EMS",
+      "shortLabel": "EMS",
+      "description": "救急・医療に関する内容を掲載する予定です。",
+      "group": "暮らし・仕事"
+    },
+    {
+      "id": "mechanic",
+      "label": "メカニック",
+      "shortLabel": "メカ",
+      "description": "メカニックに関する内容を掲載する予定です。",
+      "group": "暮らし・仕事"
+    },
+    {
+      "id": "business",
+      "label": "店舗 / Business",
+      "shortLabel": "店舗",
+      "description": "店舗・事業に関する内容を掲載する予定です。",
+      "group": "暮らし・仕事"
+    },
+    {
+      "id": "crime",
+      "label": "犯罪",
+      "shortLabel": "犯罪",
+      "description": "犯罪RPに関する内容を掲載する予定です。",
+      "group": "アクティビティ"
+    },
+    {
+      "id": "heist",
+      "label": "Heist",
+      "shortLabel": "Heist",
+      "description": "Heistに関する内容を掲載する予定です。",
+      "group": "アクティビティ"
+    },
+    {
+      "id": "gang",
+      "label": "ギャング",
+      "shortLabel": "ギャング",
+      "description": "ギャングに関する内容を掲載する予定です。",
+      "group": "アクティビティ"
+    },
+    {
+      "id": "weapons",
+      "label": "武器",
+      "shortLabel": "武器",
+      "description": "武器に関する内容を掲載する予定です。",
+      "group": "街の設備"
+    },
+    {
+      "id": "vehicles",
+      "label": "車両",
+      "shortLabel": "車両",
+      "description": "車両に関する内容を掲載する予定です。",
+      "group": "街の設備"
+    },
+    {
+      "id": "streaming",
+      "label": "配信 / SNS",
+      "shortLabel": "配信・SNS",
+      "description": "配信・SNSに関する内容を掲載する予定です。",
+      "group": "サポート"
+    },
+    {
+      "id": "administration",
+      "label": "運営対応",
+      "shortLabel": "運営対応",
+      "description": "運営への相談・対応に関する内容を掲載する予定です。",
+      "group": "サポート"
+    },
+    {
+      "id": "penalties",
+      "label": "罰則",
+      "shortLabel": "罰則",
+      "description": "運営が確認した罰則に関する内容を掲載する予定です。",
+      "group": "サポート"
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "shortLabel": "FAQ",
+      "description": "よくある質問と運営確認済みの回答を掲載する予定です。",
+      "group": "サポート"
+    }
+  ],
+  "rules": [
+    {
+      "id": "prep-basic",
+      "number": 1,
+      "title": "基本ルールの掲載準備",
+      "category": "basic",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "基本",
+        "初めて",
+        "はじめに"
+      ],
+      "importance": "normal",
+      "summary": "正式な基本ルールは運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "基本ルールの本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内であり、施行されたルールではありません。"
+        },
+        {
+          "type": "note",
+          "text": "カテゴリーと掲載順は仮です。確認後に変更される場合があります。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-rp",
+      "number": 2,
+      "title": "RPルールの掲載準備",
+      "category": "rp",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "ロールプレイ",
+        "RP",
+        "キャラクター"
+      ],
+      "importance": "normal",
+      "summary": "ロールプレイに関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "RPルールの本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内であり、施行されたルールではありません。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-prohibited",
+      "number": 3,
+      "title": "禁止事項の掲載準備",
+      "category": "prohibited",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "禁止",
+        "禁止事項"
+      ],
+      "importance": "normal",
+      "summary": "禁止事項の正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "禁止事項の本文は、運営の確認が完了した内容から掲載します。現時点では禁止行為の内容を掲載していません。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-citizen",
+      "number": 4,
+      "title": "市民カテゴリーの掲載準備",
+      "category": "citizen",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "市民",
+        "住民",
+        "生活",
+        "暮らし"
+      ],
+      "importance": "normal",
+      "summary": "市民に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "市民に関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-public-service",
+      "number": 5,
+      "title": "公務員カテゴリーの掲載準備",
+      "category": "public-service",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "公務員",
+        "職業",
+        "仕事"
+      ],
+      "importance": "normal",
+      "summary": "公務員に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "公務員に関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-pd",
+      "number": 6,
+      "title": "PDカテゴリーの掲載準備",
+      "category": "pd",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "PD",
+        "警察",
+        "police"
+      ],
+      "importance": "normal",
+      "summary": "警察に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "PDに関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-ems",
+      "number": 7,
+      "title": "EMSカテゴリーの掲載準備",
+      "category": "ems",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "EMS",
+        "救急",
+        "医療",
+        "病院"
+      ],
+      "importance": "normal",
+      "summary": "救急・医療に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "EMSに関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-mechanic",
+      "number": 8,
+      "title": "メカニックカテゴリーの掲載準備",
+      "category": "mechanic",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "メカニック",
+        "メカ",
+        "整備",
+        "mechanic"
+      ],
+      "importance": "normal",
+      "summary": "メカニックに関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "メカニックに関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-business",
+      "number": 9,
+      "title": "店舗カテゴリーの掲載準備",
+      "category": "business",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "店舗",
+        "Business",
+        "ビジネス",
+        "事業",
+        "経営"
+      ],
+      "importance": "normal",
+      "summary": "店舗・事業に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "店舗・Businessに関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-crime",
+      "number": 10,
+      "title": "犯罪カテゴリーの掲載準備",
+      "category": "crime",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "犯罪",
+        "crime",
+        "犯罪RP"
+      ],
+      "importance": "normal",
+      "summary": "犯罪RPに関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "犯罪に関する本文は、運営の確認が完了した内容から掲載します。開始条件や許可範囲などの内容は、現時点では掲載していません。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-heist",
+      "number": 11,
+      "title": "Heistカテゴリーの掲載準備",
+      "category": "heist",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "Heist",
+        "ヘイスト"
+      ],
+      "importance": "normal",
+      "summary": "Heistに関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Heistに関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-gang",
+      "number": 12,
+      "title": "ギャングカテゴリーの掲載準備",
+      "category": "gang",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "ギャング",
+        "gang",
+        "組織"
+      ],
+      "importance": "normal",
+      "summary": "ギャングに関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "ギャングに関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-weapons",
+      "number": 13,
+      "title": "武器カテゴリーの掲載準備",
+      "category": "weapons",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "武器",
+        "weapon"
+      ],
+      "importance": "normal",
+      "summary": "武器に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "武器に関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-vehicles",
+      "number": 14,
+      "title": "車両カテゴリーの掲載準備",
+      "category": "vehicles",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "車両",
+        "車",
+        "vehicle",
+        "乗り物"
+      ],
+      "importance": "normal",
+      "summary": "車両に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "車両に関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-streaming",
+      "number": 15,
+      "title": "配信・SNSカテゴリーの掲載準備",
+      "category": "streaming",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "配信",
+        "SNS",
+        "stream",
+        "動画",
+        "投稿"
+      ],
+      "importance": "normal",
+      "summary": "配信・SNSに関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "配信・SNSに関する本文は、運営の確認が完了した内容から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-administration",
+      "number": 16,
+      "title": "運営対応カテゴリーの掲載準備",
+      "category": "administration",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "運営",
+        "対応",
+        "相談",
+        "サポート"
+      ],
+      "importance": "normal",
+      "summary": "運営対応に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "運営対応に関する本文は、運営の確認が完了した内容から掲載します。問い合わせ先は、正式なURLの確認後に案内します。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-penalties",
+      "number": 17,
+      "title": "罰則カテゴリーの掲載準備",
+      "category": "penalties",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "罰則",
+        "penalty",
+        "処分"
+      ],
+      "importance": "normal",
+      "summary": "罰則に関する正式本文は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "罰則に関する本文は、運営の確認が完了した内容から掲載します。現時点では処分条件や内容を掲載していません。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    },
+    {
+      "id": "prep-faq",
+      "number": 18,
+      "title": "FAQの掲載準備",
+      "category": "faq",
+      "tags": [
+        "準備中"
+      ],
+      "keywords": [
+        "FAQ",
+        "質問",
+        "よくある質問",
+        "回答"
+      ],
+      "importance": "normal",
+      "summary": "よくある質問への正式な回答は運営確認中です。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "FAQは、運営が確認した質問と回答から掲載します。このカードは掲載準備の案内です。"
+        }
+      ],
+      "updatedAt": "2026-10-04",
+      "new": false,
+      "featured": false,
+      "status": "pending"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-10-04",
+      "type": "準備",
+      "title": "公式Webサイトの準備版を作成",
+      "items": [
+        "HOME・RULES・CHANGELOGページを作成しました。",
+        "検索、カテゴリー絞り込み、個別URL、ブックマーク、テーマ切り替えを用意しました。",
+        "正式ルール本文は運営確認中です。掲載カテゴリーは仮の構成です。"
+      ]
+    }
+  ],
+  "settings": {
+    "newBadgeDays": 30,
+    "featuredRuleIds": []
+  }
+}
