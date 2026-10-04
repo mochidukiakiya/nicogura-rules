@@ -119,7 +119,7 @@
   }
   function scrollToNode(node) {
     if (!node) return;
-    node.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
+    node.scrollIntoView({ behavior: 'instant', block: 'start' });
   }
   function readBookmarks() {
     try {
@@ -206,6 +206,8 @@
     return rule.status === 'published' ? number : `PREP ${number}`;
   }
   function initChrome() {
+    const skipLink = document.querySelector('.skip-link');
+    if (page === '404' && skipLink) skipLink.href = `${location.pathname}${location.search}#main-content`;
     const header = document.getElementById('site-header');
     const inner = el('div', 'shell header-inner');
     const brand = link('', '', 'brand');
@@ -702,7 +704,7 @@
     if (id === 'categories') {
       const target = document.getElementById('categories');
       if (focus && target) { target.tabIndex = -1; target.focus({ preventScroll: true }); }
-      requestAnimationFrame(() => scrollToNode(target));
+      scrollToNode(target);
       return true;
     }
     const rule = data.rules.find(item => item.id === id);
@@ -716,10 +718,8 @@
     renderResults();
     const node = document.getElementById(id);
     node.open = true;
-    requestAnimationFrame(() => {
-      scrollToNode(node);
-      if (focus) node.querySelector('summary')?.focus({ preventScroll: true });
-    });
+    scrollToNode(node);
+    if (focus) node.querySelector('summary')?.focus({ preventScroll: true });
     return true;
   }
   async function copyRuleUrl(rule) {
@@ -798,7 +798,7 @@
   }
   async function init() {
     try {
-      const response = await fetch(href('data/rules.json'), { credentials: 'same-origin' });
+      const response = await fetch(href('data/rules.json'), { credentials: 'same-origin', cache: 'no-store' });
       if (!response.ok) throw new Error(`Data unavailable: ${response.status}`);
       data = validateData(await response.json());
       categoryMap = new Map(data.categories.map(category => [category.id, category]));
