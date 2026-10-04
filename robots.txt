@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /nicogura-rules/editor/
+Sitemap: https://mochidukiakiya.github.io/nicogura-rules/sitemap.xml
