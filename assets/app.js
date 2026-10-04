@@ -334,7 +334,26 @@
     const lead = el('p', 'hero-lead', 'にこぐらへようこそ。暮らしも、出会いも、あなたの物語の一部に。NicoGuraの公式情報を、この場所から。');
     const actions = el('div', 'hero-actions');
     actions.append(link('ルール・ガイドラインを見る', 'rules/', 'button button-primary', 'arrow'), socialLink('Discordへ', 'discord', 'button button-secondary'));
-    heroCopy.append(kicker, title, lead, actions, metaRow());
+    const homeSearch = el('form', 'search-box home-search');
+    homeSearch.setAttribute('role', 'search');
+    homeSearch.action = href('rules/');
+    const searchLabel = el('label', 'visually-hidden', 'ホームからルールを検索');
+    searchLabel.htmlFor = 'home-rule-search';
+    const searchInput = el('input', 'search-input');
+    searchInput.id = 'home-rule-search';
+    searchInput.name = 'q';
+    searchInput.type = 'search';
+    searchInput.maxLength = 500;
+    searchInput.placeholder = '気になるルールを検索…';
+    const searchSubmit = button('', 'icon-button', null, 'arrow');
+    searchSubmit.type = 'submit';
+    searchSubmit.setAttribute('aria-label', '検索結果を見る');
+    homeSearch.append(searchLabel, icon('search'), searchInput, searchSubmit);
+    homeSearch.addEventListener('submit', event => {
+      event.preventDefault();
+      location.href = href(`rules/?q=${encodeURIComponent(searchInput.value.trim())}`);
+    });
+    heroCopy.append(kicker, title, lead, actions, homeSearch, metaRow());
     hero.append(heroArt(), el('div', 'hero-overlay'), heroCopy);
     const content = el('div', 'home-content');
     content.append(notice());
