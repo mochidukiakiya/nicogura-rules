@@ -699,6 +699,12 @@
   function openDeepLink(focus) {
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch (_) { return false; }
+    if (id === 'categories') {
+      const target = document.getElementById('categories');
+      if (focus && target) { target.tabIndex = -1; target.focus({ preventScroll: true }); }
+      requestAnimationFrame(() => scrollToNode(target));
+      return true;
+    }
     const rule = data.rules.find(item => item.id === id);
     if (!rule) return false;
     state.query = '';
